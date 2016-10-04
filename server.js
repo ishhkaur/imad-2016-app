@@ -15,11 +15,11 @@ app.get('/art-one', function (res, res){
 
 
 app.get('/art-two', function (res, res){
-   res.send('Article two requested and will be served here'); 
+  res.sendFile(path.join(__dirname, 'ui', 'art_two.html'));
 });
 
 app.get('/art-three', function (res, res){
-   res.send('Article three requested and will be served here'); 
+  res.sendFile(path.join(__dirname, 'ui', 'art_three.html'));
 });
 
 app.get('/ui/style.css', function (req, res) {
