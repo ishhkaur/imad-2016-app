@@ -37,6 +37,7 @@ function createTemplate(data){
                 </div>
                 <h3>${heading}</h3>
                 <div>
+                  ` alert('im here');`
                     ${content}
                 </div>
             </div>
