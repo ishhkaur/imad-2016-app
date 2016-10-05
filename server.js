@@ -10,8 +10,7 @@ var articleOne = {
    title:'art_one || Ishdeep Kaur',
    date:'Oct 4,2016',
    heading:'Article One',
-   content:`                
-   <p>This is article one. This is article one. This is article one. This is article one. This is article one. This is article one. This is article one. </p>
+   content:`<p>This is article one. This is article one. This is article one. This is article one. This is article one. This is article one. This is article one. </p>
    <p>This is article one. This is article one. This is article one. This is article one. This is article one. This is article one. This is article one. </p>
     <p>This is article one. This is article one. This is article one. This is article one. This is article one. This is article one. This is article one. </p>`
 };
@@ -42,9 +41,7 @@ function createTemplate(data){
                 </div>
             </div>
         </body>
-    </html>
-    
-    `;
+    </html>`;
     return htmlTemplate;
 }
 
